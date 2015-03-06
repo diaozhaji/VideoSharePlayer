@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 10
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.wotlab.sch.videoresplayer"
+        minSdkVersion 8
+        targetSdkVersion 16
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/baidumapapi_v3_3_0.jar')
+    compile files('libs/juv-rtmp-client-1.5.10.jar')
+}

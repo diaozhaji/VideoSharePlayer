@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- SurfaceView组件 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <SurfaceView
+            android:id="@+id/mediarecorder_Surfaceview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!-- 屏幕下方计时器 -->
+
+        <AbsoluteLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" >
+
+            <TextView
+                android:id="@+id/mediarecorder_TextView01"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_x="5dip"
+                android:layout_y="1dip"
+                android:text="00"
+                android:textColor="#ffff0000"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/mediarecorder_TextView02"
+                android:layout_width="20dip"
+                android:layout_height="40dip"
+                android:layout_x="25dip"
+                android:layout_y="1dip"
+                android:text=":"
+                android:textColor="#ffff0000"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/mediarecorder_TextView03"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_x="35dip"
+                android:layout_y="1dip"
+                android:text="00"
+                android:textColor="#ffff0000"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/mediarecorder_TextView04"
+                android:layout_width="20dip"
+                android:layout_height="40dip"
+                android:layout_x="55dip"
+                android:layout_y="1dip"
+                android:text=":"
+                android:textColor="#ffff0000"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/mediarecorder_TextView05"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_x="65dip"
+                android:layout_y="1dip"
+                android:text="00"
+                android:textColor="#ffff0000"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="505dp"
+                android:layout_y="1dp"
+                android:text="By:侯明威"
+                android:textColor="#ffff0000"
+                android:textStyle="bold" >
+            </TextView>
+        </AbsoluteLayout>
+        <!-- 功能按钮 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/mediarecorder_VideoStartBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="开始" />
+
+            <Button
+                android:id="@+id/mediarecorder_VideoStopBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="结束" />
+
+            <Button
+                android:id="@+id/mediarecorder_VideoReturnBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="返回" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
