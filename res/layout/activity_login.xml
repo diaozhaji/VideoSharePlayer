@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5da2ff" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="218dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/login_title" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="240dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/login_name"
+            android:gravity="center_vertical"
+            android:paddingLeft="40dp"
+            android:maxLines="1"
+            android:maxLength="40"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="240dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/login_password"
+            android:gravity="center_vertical"
+            android:paddingLeft="40dp"
+            android:maxLines="1"
+             android:maxLength="20"
+            android:password="true"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="240dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/selector_btn_login"
+            android:text="登 陆"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="账号注册"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+</RelativeLayout>
