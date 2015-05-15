@@ -63,6 +63,7 @@
             android:layout_height="21dp"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
+            android:visibility="gone"
             android:background="@drawable/selector_btn_login"
             android:text="直    播"
             android:textColor="#000000"

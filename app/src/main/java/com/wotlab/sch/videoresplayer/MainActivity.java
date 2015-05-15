@@ -59,8 +59,6 @@ public class MainActivity extends Activity {
 		
 		downloadXml();
 
-		
-
 	}
 
 	HttpDownloader hd = new HttpDownloader();

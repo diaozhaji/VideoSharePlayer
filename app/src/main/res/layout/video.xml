@@ -85,15 +85,6 @@
                 android:textStyle="bold" >
             </TextView>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_x="505dp"
-                android:layout_y="1dp"
-                android:text="By:侯明威"
-                android:textColor="#ffff0000"
-                android:textStyle="bold" >
-            </TextView>
         </AbsoluteLayout>
         <!-- 功能按钮 -->
 
