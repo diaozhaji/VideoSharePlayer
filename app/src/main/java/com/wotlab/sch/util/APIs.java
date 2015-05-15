@@ -13,7 +13,6 @@ public class APIs {
     public static final String PORT_SERVICE = ":11000/";
     public static final String PORT_PLAYER = ":11000";
     public static final String VIRTUAL_DIR = "/VideoGateway";
-g
 
 	public static String getVideozone() {
 		return APP_ROOT + PORT_SERVICE + VIRTUAL_DIR +"/mobile/videozone/1";
