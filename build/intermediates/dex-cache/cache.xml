@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Android\adt-bundle\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="F:\AndroidstudioProjects\videoresplayer\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-f865b044f79199204b2f488df271c438d503af49.jar" />
+    </item>
+    <item
+        jar="F:\AndroidstudioProjects\videoresplayer\app\libs\baidumapapi_v3_3_0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="110659c4d195f1335d04be564045b6b8eb8d83f4">
+        <dex dex="F:\AndroidstudioProjects\videoresplayer\app\build\intermediates\pre-dexed\debug\baidumapapi_v3_3_0-1961f85ac67055775ad146ec5f4629d6d2414186.jar" />
+    </item>
+    <item
+        jar="F:\AndroidstudioProjects\videoresplayer\app\libs\juv-rtmp-client-1.5.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d846be9ee61f2d083d5dbcb8831febb5bb41c813">
+        <dex dex="F:\AndroidstudioProjects\videoresplayer\app\build\intermediates\pre-dexed\debug\juv-rtmp-client-1.5.10-1ab6c57f63f5c9bca949ecb27ecf6465cfa401af.jar" />
+    </item>
+
+</items>
